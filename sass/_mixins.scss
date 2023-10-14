@@ -1,0 +1,24 @@
+@mixin basic-button-a {
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0;
+    padding: 0 5px;
+}
+@mixin basic-title {
+    font-family: $secondaryFontFamily;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: $primaryColor;
+}
+@mixin basic-sub-title {
+    font-family: "Lato", sans-serif;
+    padding: 15px 0;
+    color: #666666;
+    line-height: 25px;
+    font-size: 22px;
+}
+@mixin basic-text {
+    font-family: "Lato", sans-serif;
+    margin-bottom: 15px;
+}

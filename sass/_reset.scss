@@ -1,0 +1,58 @@
+// Common Css Start
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    font-family: $primaryFontFamily;
+    font-size: $primaryFontSize;
+    color: $textColor;
+    margin: 0;
+    padding: 0;
+    line-height: 27px;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $secondaryFontFamily;
+    color: $titleTextColor;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+section {
+    position: relative;
+    display: block;
+}
+img {
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+address {
+    margin: 0;
+    padding: 0;
+}
+// Common Css End

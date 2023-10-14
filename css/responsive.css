@@ -1,0 +1,861 @@
+/* // `xs` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 320px) {
+    header {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    /* Navbar CSS for lg Device */
+    .navbar-toggler {
+        border: var(--bs-border-width) solid rgb(221 216 1 / 62%);
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0px 0px 0px 0.29rem rgb(253, 228, 40);
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253,228,40, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    /* Navbar CSS for lg Device */
+     /* Slider */
+     .slider-contents {
+        padding: 50% 0px;
+    }
+    .slider-contents .slider-text::before {
+        transform: translate(73%, -29%);
+        width: 150px;
+        height: 250px;
+    }
+    .slider-contents .slider-text h1 {
+        width: 80%;
+        font-size: 13px;
+        margin: 0 0 20px auto;
+    }
+    .slider-contents .slider-text a {
+        font-size: 13px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%;
+    }
+    .carousel-control-next {
+        left: 15%;
+    }
+    /* Slider */
+    /* About Us */
+    .ab-text-wrapper {
+        padding: 40px 0;
+        text-align: center;
+    }
+    .ab-part-01 .ab-img-wrapper {
+        padding: 50px 0 50px 0;
+    }
+    .ab-img-wrapper img {
+        width: 100%;
+        height: 150px;
+    }
+    .ab-text-wrapper .title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .ab-text-wrapper .sub-title {
+        line-height: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .ab-text-wrapper .text {
+        text-align: center;
+        line-height: 20px;
+    }
+    .ab-part-02 .ab-img-wrapper {
+        padding: 0 0 50px 0;
+    }
+    /* About Us */
+    /* contact-now-short Start */
+    #contact-now-short p {
+        text-align: center;
+    }
+    .con-short-btn {
+        margin-top: 20px;
+    }
+    /* contact-now-short End */
+    /* Service Start */
+    #service {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #service .section-title h1 {
+        font-size: 20px;
+    }
+    #service .section-sub-title {
+        width: 100%;
+    }
+    .single-service .service-title {
+        font-size: 16px;
+    }
+    .single-service .service-details {
+    padding: 0 15px 15px 15px;
+    line-height: 20px;
+    }
+    .single-service {
+        margin-bottom: 20px;
+    }
+    /* Service End */
+    /* Count Start */
+    #counter {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #counter .container .counters {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 42px;
+        align-items: center;
+    }
+    #counter .container .counters .single-counter .counter-value {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    #counter .container .counters .single-counter {
+        width: 50%;
+    }
+    #counter .container .counters .single-counter .counter-value {
+        color: white;
+    }
+    /* Count End */
+    /* Why We Best */
+    .wwb-text-wrapper {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .wwb-img-wrapper {
+        padding: 50px 0;
+    }
+    .wwb-img-wrapper img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 295px;
+        height: 176px;
+    }
+    .fancy-btn::after {
+        padding: 12px;
+        border: 5px solid lightgrey;
+        font-size: 16px;
+    }
+    .wwb-text-wrapper .title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .wwb-text-wrapper .sub-title {
+        line-height: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .wwb-text-wrapper .text {
+        text-align: center;
+        line-height: 20px;
+    }
+    /* Why We Best */
+    /* Testimonial Start */
+    #Testimonial {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #Testimonial .carousel-content {
+        width: 100%;
+    }
+    #Testimonial .carousel-content .client-name {
+        width: 160px;
+    }
+    #Testimonial .carousel-content .client-name::before {
+        left: -63px;
+    }
+    #Testimonial .carousel-content .client-name::after {
+        right: -63px;
+    }
+    /* Testimonial End */
+
+    /* Footer Start */
+    #footer .footer-top {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #footer .footer-top .row .footerTitle {
+        font-size: 25px;
+    }
+    .address .row {
+        gap: 30px;
+    }
+    .address-details {
+        padding: 10px;
+    }
+    .address-details .Branch-name {
+        padding-bottom: 15px;
+    }
+    .copyright .container div {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    .copyright .container div p {
+        text-align: center;
+    }
+    /* Footer End */
+}
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media only screen and (min-width: 320.02px) and (max-width: 575.98px) {
+    header {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    /* Navbar CSS for lg Device */
+    .navbar-toggler {
+        border: var(--bs-border-width) solid rgb(221 216 1 / 62%);
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0px 0px 0px 0.29rem rgb(253, 228, 40);
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253,228,40, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    /* Navbar CSS for lg Device */
+    /* Slider */
+    .slider-contents {
+        padding: 50% 0px;
+    }
+    .slider-contents .slider-text::before {
+        transform: translate(73%, -18%);
+        width: 150px;
+        height: 250px;
+    }
+    .slider-contents .slider-text h1 {
+        width: 80%;
+        font-size: 13px;
+        margin: 0 0 20px auto;
+    }
+    .slider-contents .slider-text a {
+        font-size: 13px;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        width: 10%;
+    }
+    .carousel-control-next {
+        left: 15%;
+    }
+    /* Slider */
+    /* About Us */
+    .ab-text-wrapper {
+        padding: 40px 0;
+        text-align: center;
+    }
+    .ab-part-01 .ab-img-wrapper {
+        padding: 50px 0 50px 0;
+    }
+    .ab-img-wrapper img {
+        width: 100%;
+        height: 150px;
+    }
+    .ab-text-wrapper .title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .ab-text-wrapper .sub-title {
+        line-height: 20px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .ab-text-wrapper .text {
+        text-align: center;
+        line-height: 20px;
+    }
+    .ab-part-02 .ab-img-wrapper { 
+        padding: 10px 0 50px 0;
+    }
+    /* About Us */
+    /* contact-now-short Start */
+    #contact-now-short p {
+        text-align: center;
+    }
+    .con-short-btn {
+        margin-top: 20px;
+    }
+    /* contact-now-short End */
+    /* Service Start */
+    #service {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #service .section-title h1 {
+        font-size: 20px;
+    }
+    #service .section-sub-title {
+        width: 100%;
+    }
+    .single-service .service-title {
+        font-size: 20px;
+    }
+    .single-service .service-details {
+    padding: 0 15px 15px 15px;
+    line-height: 20px;
+    }
+    .single-service {
+        margin-bottom: 20px;
+    }
+    /* Service End */
+    /* Count Start */
+    #counter {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #counter .container .counters {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 42px;
+        align-items: center;
+    }
+    #counter .container .counters .single-counter .counter-value {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    #counter .container .counters .single-counter {
+        width: 50%;
+    }
+    #counter .container .counters .single-counter .counter-value {
+        color: white;
+    }
+    /* Count End */
+    /* Why We Best */
+    .wwb-text-wrapper {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .wwb-img-wrapper {
+        padding: 50px 0;
+    }
+    .wwb-img-wrapper img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 295px;
+        height: 176px;
+    }
+    .wwb-img-wrapper::after {
+        width: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .fancy-btn::after {
+        padding: 12px;
+        border: 5px solid lightgrey;
+        font-size: 16px;
+    }
+    .wwb-text-wrapper .title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .wwb-text-wrapper .sub-title {
+        line-height: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .wwb-text-wrapper .text {
+        text-align: center;
+        line-height: 20px;
+    }
+    /* Why We Best */
+    /* Testimonial Start */
+    #Testimonial {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #Testimonial .carousel-content {
+        width: 100%;
+    }
+    #Testimonial .carousel-content .client-name {
+        width: 160px;
+    }
+    #Testimonial .carousel-content .client-name::before {
+        left: -63px;
+    }
+    #Testimonial .carousel-content .client-name::after {
+        right: -63px;
+    }
+    /* Testimonial End */
+
+    /* Footer Start */
+    #footer .footer-top {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #footer .footer-top .row .footerTitle {
+        font-size: 25px;
+    }
+    .address .row {
+        gap: 30px;
+    }
+    .address-details {
+        padding: 10px;
+    }
+    .address-details .Branch-name {
+        padding-bottom: 15px;
+    }
+    .copyright .container div {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    .copyright .container div p {
+        text-align: center;
+    }
+    /* Footer End */
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    header {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+    /* Navbar CSS for lg Device */
+    .navbar-toggler {
+        border: var(--bs-border-width) solid rgb(221 216 1 / 62%);
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0px 0px 0px 0.29rem rgb(253, 228, 40);
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253,228,40, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    /* Navbar CSS for lg Device */
+    /* Slider */
+    .slider-contents {
+        padding: 50% 0px;
+    }
+    .slider-contents .slider-text::before {
+        transform: translate(73%, -18%);
+        width: 200px;
+        height: 250px;
+    }
+    .slider-contents .slider-text h1 {
+        width: 70%;
+        font-size: 22px;
+        margin: 0 0 20px auto;
+    }
+    /* Slider */
+    /* About Us */
+    .ab-text-wrapper {
+        padding: 40px 0;
+        text-align: center;
+    }
+    .ab-part-01 .ab-img-wrapper {
+        padding: 50px 0 50px 0;
+    }
+    .ab-img-wrapper img {
+        width: 100%;
+        height: 100%;
+    }
+    .ab-text-wrapper .title {
+        font-size: 25px;
+        text-align: center;
+    }
+    .ab-text-wrapper .sub-title {
+        line-height: 22px;
+        font-size: 16px;
+        text-align: center;
+    }
+    .ab-text-wrapper .text {
+        text-align: center;
+        line-height: 20px;
+    }
+    .ab-part-02 .ab-img-wrapper { 
+        padding: 10px 0 50px 0;
+    }
+    /* About Us */
+    /* Service Start */
+    #service {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #service .section-title h1 {
+        font-size: 25px;
+    }
+    #service .section-sub-title {
+        width: 100%;
+    }
+    .single-service .service-title {
+        font-size: 23px;
+    }
+    .single-service .service-details {
+    padding: 0 15px 15px 15px;
+    line-height: 20px;
+    }
+    .single-service {
+        margin-bottom: 20px;
+    }
+    /* Service End */
+
+    /* Count Start */
+    #counter {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    #counter .container .counters {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 42px;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    #counter .container .counters .single-counter .counter-value {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    #counter .container .counters .single-counter {
+        width: 40%;
+    }
+    /* Count End */
+    /* Why We Best */
+    .wwb-text-wrapper {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .wwb-img-wrapper {
+        padding: 50px 0;
+    }
+    .wwb-img-wrapper img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 500px;
+        height: 300px;
+    }
+    .wwb-img-wrapper::after {
+        width: 200px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .fancy-btn::after {
+        padding: 19px;
+        border: 5px solid lightgrey;
+        font-size: 40px;
+    }
+    .wwb-text-wrapper .title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .wwb-text-wrapper .sub-title {
+        line-height: 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+    .wwb-text-wrapper .text {
+        text-align: center;
+        line-height: 20px;
+    }
+    /* Why We Best */
+    /* Testimonial Start */
+    #Testimonial {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    #Testimonial .carousel-content {
+        width: 100%;
+    }
+    #Testimonial .carousel-content .client-name {
+        width: 160px;
+    }
+    #Testimonial .carousel-content .client-name::before {
+        left: -63px;
+    }
+    #Testimonial .carousel-content .client-name::after {
+        right: -63px;
+    }
+    /* Testimonial End */
+
+    /* Footer Start */
+    #footer .footer-top {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .address .row {
+        gap: 30px;
+    }
+    /* Footer End */
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    header {
+        padding-top: 20px;
+    }
+    /* Navbar CSS for lg Device */
+    .navbar-toggler {
+        border: var(--bs-border-width) solid rgb(221 216 1 / 62%);
+    }
+    .navbar-toggler:focus {
+        box-shadow: 0px 0px 0px 0.29rem rgb(253, 228, 40);
+    }
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(253,228,40, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    }
+    /* Navbar CSS for lg Device */
+    /* Slider */
+    .slider-contents {
+        padding: 50% 0px;
+    }
+    .slider-contents .slider-text::before {
+        transform: translate(73%, -24%);
+        width: 250px;
+        height: 350px;
+    }
+    /* Slider */
+    /* About Start */
+    .ab-part-01 .ab-img-wrapper {
+        padding: 100px 0 100px 0;
+    }
+    .ab-img-wrapper img {
+        width: 100%;
+        height: 100%;
+    }
+    .ab-text-wrapper .title {
+        font-size: 25px;
+    }
+    .ab-text-wrapper .sub-title {
+        line-height: 20px;
+        font-size: 16px;
+    }
+    .ab-text-wrapper .text {
+        line-height: 15px;
+    }
+    /* About End */
+
+    /* Count Start */
+    #counter .container .counters .single-counter .counter-value {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    /* Count End */
+    /* Service Start */
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #service .container .row {
+        row-gap: 30px;
+        justify-content: center;
+    }
+    /* Service End */
+
+    /* Count Start */
+    #counter {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* Count End */
+
+    /* Why We Best */
+    .wwb-text-wrapper {
+        padding: 20px 0;
+        text-align: left;
+    }
+    .wwb-img-wrapper {
+        padding: 57px 0;
+    }
+    .wwb-img-wrapper img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 100%;
+        height: auto;
+    }
+    .wwb-img-wrapper::after {
+        width: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .fancy-btn::after {
+        padding: 14px;
+        border: 10px solid lightgrey;
+        font-size: 25px;
+    }
+    .wwb-text-wrapper .title {
+        font-size: 20px;
+        text-align: left;
+    }
+    .wwb-text-wrapper .sub-title {
+        line-height: 20px;
+        font-size: 18px;
+        text-align: left;
+    }
+    .wwb-text-wrapper .text {
+        text-align: left;
+        line-height: 20px;
+    }
+    /* Why We Best */
+    /* Testimonial Start */
+    #Testimonial {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    #Testimonial .carousel-content {
+        width: 80%;
+    }
+    #Testimonial .carousel-content .client-name {
+        width: 160px;
+    }
+    #Testimonial .carousel-content .client-name::before {
+        left: -63px;
+    }
+    #Testimonial .carousel-content .client-name::after {
+        right: -63px;
+    }
+    /* Testimonial End */
+
+    /* Footer Start */
+    #footer .footer-top {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .address .row {
+        row-gap: 30px;
+        justify-content: center;
+    }
+    /* Footer End */
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    /* Slider */
+    .slider-contents {
+        padding: 35% 0px;
+    }
+    .slider-contents .slider-text {
+        position: relative;
+        text-align: right;
+        width: 65%;
+        z-index: 1;
+        left: -18%;
+    }
+    .slider-contents .slider-text::before {
+        transform: translate(73%, -24%);
+        width: 250px;
+        height: 350px;
+    }
+    /* Slider */
+
+    /* Service Start */
+    #service {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    #service .container .row {
+        row-gap: 30px;
+        justify-content: center;
+    }
+    /* Service End */
+
+    /* Count Start */
+    #counter {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    /* Count End */
+
+    /* Why We Best */
+    .wwb-text-wrapper {
+        padding: 20px 0;
+        text-align: left;
+    }
+    .wwb-img-wrapper {
+        padding: 57px 0;
+    }
+    .wwb-img-wrapper img {
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: 350px;
+        height: 250px;
+    }
+    .wwb-img-wrapper::after {
+        width: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .fancy-btn::after {
+        padding: 19px;
+        border: 5px solid lightgrey;
+        font-size: 40px;
+    }
+    .wwb-text-wrapper .title {
+        font-size: 20px;
+        text-align: left;
+    }
+    .wwb-text-wrapper .sub-title {
+        line-height: 20px;
+        font-size: 18px;
+        text-align: left;
+    }
+    .wwb-text-wrapper .text {
+        text-align: left;
+        line-height: 20px;
+    }
+    /* Why We Best */
+    /* Testimonial Start */
+    #Testimonial {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #Testimonial .carousel-content {
+        width: 80%;
+    }
+    #Testimonial .carousel-content .client-name {
+        width: 160px;
+    }
+    #Testimonial .carousel-content .client-name::before {
+        left: -63px;
+    }
+    #Testimonial .carousel-content .client-name::after {
+        right: -63px;
+    }
+    /* Testimonial End */
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    .slider-contents {
+        padding: 55% 0px;
+    }
+    .slider-contents .slider-text {
+        position: relative;
+        text-align: right;
+        width: 65%;
+        z-index: 1;
+        left: -40%;
+    }
+    .slider-contents .slider-text::before {
+        transform: translate(73%, -24%);
+        width: 250px;
+        height: 350px;
+    }
+    /* Slider */
+    /* Testimonial Start */
+    #Testimonial {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    #Testimonial .carousel-content {
+        width: 80%;
+    }
+    #Testimonial .carousel-content .client-name {
+        width: 160px;
+    }
+    #Testimonial .carousel-content .client-name::before {
+        left: -63px;
+    }
+    #Testimonial .carousel-content .client-name::after {
+        right: -63px;
+    }
+    /* Testimonial End */
+}
